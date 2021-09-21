@@ -1,0 +1,36 @@
+*{
+     margin: auto;
+     padding: 0;
+     margin: 0;
+     background-color: black;
+}
+
+.flex{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.container{
+     margin:5px 12rem;
+     justify-content: space-around;
+     background-color: red;
+}
+.item{
+     margin:2px 0;
+}
+
+.relative{
+     position: relative;
+}
+
+.nome{
+     position: absolute;
+     top:90%;
+     left: 0%;
+     color: white;
+}
+
+
+
+
+
