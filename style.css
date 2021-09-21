@@ -9,6 +9,12 @@ body{
      background-color: black;
 }
 
+.clearfix{
+     clear:both;
+     display: table;
+     content: "";
+}
+
 .flex{
      display: flex;
      flex-wrap: wrap;
@@ -44,9 +50,8 @@ body{
 }
 
 .container{
-     margin:5px 12rem;
+     padding: 0 200px;
      justify-content: space-around;
-     background-color: red;
 }
 
 .relative{
@@ -55,10 +60,30 @@ body{
 
 .nome{
      position: absolute;
-     top:90%;
+     top:89%;
      left: 0%;
      color: white;
+     background-color: #262823;
 }
+
+.freccia{
+     position: absolute;
+     top: 35%;
+     color: #7f7f7f;
+     font-size: 200px; 
+}
+
+.dx{
+     right: 0%;
+         
+}
+
+.sx{
+     left: 0%;
+}
+
+
+
 
 
 
