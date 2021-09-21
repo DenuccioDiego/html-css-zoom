@@ -2,6 +2,10 @@
      margin: auto;
      padding: 0;
      margin: 0;
+     
+}
+
+body{
      background-color: black;
 }
 
@@ -9,14 +13,40 @@
      display: flex;
      flex-wrap: wrap;
 }
+.container_header{
+     position: relative;
+     margin-bottom: 20px;
+     height: 5vh;
+}
+.icone_header{
+     position: absolute;
+     right: 0;
+     top: 50%;
+}
+
+.icona{
+     color: white;
+     display: inline;
+     background-color: #3b3b3b;
+     
+}
+
+.uno{
+     padding: 7px;
+     margin: 2px; 
+     border-radius: 5px;
+}
+
+.due {
+     padding: 7px;
+     margin: 2px;
+     border-radius: 25%;
+}
 
 .container{
      margin:5px 12rem;
      justify-content: space-around;
      background-color: red;
-}
-.item{
-     margin:2px 0;
 }
 
 .relative{
