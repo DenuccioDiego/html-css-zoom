@@ -30,7 +30,7 @@ body{
      top: 50%;
 }
 
-.icona{
+header .icona {
      color: white;
      display: inline;
      background-color: #3b3b3b;
@@ -82,8 +82,34 @@ body{
      left: 0%;
 }
 
+.contenitore_footer{
+     margin-top: 17px;
+     background-color:#222326;
+     height: 7vh;
+     width: 100%;
+     font-size: 20px;
+     color: white;
+     padding: 0px;
+     justify-content: space-between;
+     align-items: baseline ;
+}
 
+.rosso{
+     background-color: #4a4b4d;
+     color: #cc534c;
+     padding: 25px 10px 20px 10px;
+}
+.verde>span{
+     color: white;
+}
+.verde{
+     color: #4bc800 ;
+}
 
+.icona i{
+     text-align: center;
+     padding:0 10px 0 10px;
+}
 
 
 
